@@ -5,7 +5,7 @@
   事件，当你将更新的内容推送到远程仓库时，github会向你的接口发起一个请求，将修改的内容和监听的事件发送到该接口
 
 - **注意事项：**
-  如果只是想单独用这个服务，可以直接执行我已经编译后的二进制可执行文件（只针对Linux和mac OS x），在`build`文件夹中，并修改配置文件中的参数，然后执行命令`nohub ./github-webhooks &`即可
+  如果只是想单独用这个服务，可以直接执行我已经编译后的二进制可执行文件（只针对Linux和mac OS x），在`build`文件夹中，并修改配置文件中的参数(配置文件需复制到`build`文件夹下)，然后执行命令`nohub ./github-webhooks &`即可
 
 - **文档参考：**
     - [github官方钩子文档](https://docs.github.com/en/developers/webhooks-and-events/webhooks/about-webhooks)
