@@ -1,8 +1,0 @@
-{
-  "listener_route": "/webhooks",
-  "listener_port": "3000",
-  "webhooks_secret": "you-secret-key",
-  "command": {
-    "https://github.com/mosiboom/TestRepository": "cd /code/test/TestRepository/ && /usr/bin/git pull"
-  }
-}
