@@ -1,3 +1,4 @@
 logs
 nohup.out
-webhooks-config.json
+github-config.json
+gitlab-config.json
